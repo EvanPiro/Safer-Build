@@ -2,7 +2,7 @@
 A Tool for developers to safety deploy a production Lambda function from local.
 
 ## Summary
-This repo provides the basic foundation for a Node.js via TypeScript project that will be deployed to AWS Lambda. The deployment uses a [docker-lambda](https://github.com/lambci/docker-lambda) image to replicate the production environment and uses the environment's internal resources to build and ship the application artifact. Deployment employs on [serverless](https://serverless.com/) for abstracting away some of the config-heavy deployment code.
+This repo provides the basic foundation for a Node.js via TypeScript project that will be deployed to AWS Lambda. The deployment uses a [docker-lambda](https://github.com/lambci/docker-lambda) image to replicate the production environment and uses the environment's internal resources to build and ship the application artifact. Deployment employs [serverless](https://serverless.com/) for abstracting away some of the config-heavy deployment code.
 
 ## Set Up
 Because deployments will occur on AWS, you will need to add your aws keys to your environment variables i.e in ~/.bash_profiles for repeated use in the following form: 
