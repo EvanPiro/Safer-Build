@@ -1,0 +1,9 @@
+node_modules
+.gitignore
+docker-compose.yml
+package-lock.json
+README.md
+dist
+.git
+.vscode
+.serverless
