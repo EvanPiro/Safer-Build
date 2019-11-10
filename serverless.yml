@@ -1,4 +1,4 @@
-service: lamda-test
+service: safer-build
 
 provider:
   name: aws
@@ -20,7 +20,7 @@ package:
     - README.md
 
 functions:
-  cocktail:
+  simple:
     handler: dist/index.handler
     events:
       - http:

@@ -13,4 +13,4 @@ RUN npm add -g serverless-offline
 
 RUN serverless config credentials --provider aws --key ${AWS_ACCESS_KEY_ID} --secret ${AWS_SECRET_ACCESS_KEY}
 
-CMD npm run deploy
+CMD npm run build && serverless deploy
